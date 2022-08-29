@@ -1,6 +1,7 @@
 .dashboard-content-section {
   background-color: #f5f5f5;
   padding-top: 32px;
+  height: 100vh;
   .heading-section {
     display: flex;
     gap: 24px;
@@ -17,6 +18,54 @@
         font-weight: 700;
         color: #9acb3f;
         border: 1px solid #9acb3f;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+  .row {
+    padding-top: 32px;
+    .items-card {
+      .card-1 {
+        background-image: url("../../../..//public/images/card-1.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 150px;
+        padding: 32px 24px;
+        font-family: sans-serif;
+        color: white;
+        .card-title {
+          font-size: 16px;
+          font-weight: 500;
+        }
+        .card-number {
+          font-size: 24px;
+          font-weight: 700;
+          padding-top: 12px;
+        }
+      }
+      .card-2 {
+        background-image: url("../../../..//public/images/card-2.jpg");
+      }
+      .card-3 {
+        background-image: url("../../../..//public/images/card-3.jpg");
+        .card-title {
+          display: flex;
+          justify-content: space-between;
+          a {
+            color: white;
+          }
+        }
+      }
+      .card-4 {
+        background-image: url("../../../..//public/images/card-4.jpg");
+      }
+      .card-5 {
+        background-image: url("../../../..//public/images/card-5.jpg");
+        span {
+          font-size: 16px;
+          font-weight: 500;
+        }
       }
     }
   }

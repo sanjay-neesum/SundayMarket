@@ -1,0 +1,33 @@
+.dashboard-table {
+  padding: 24px 0;
+  table {
+    width: 100%;
+    th {
+      background-color: #ededed;
+      padding: 8px 0;
+      font-size: 18px;
+    }
+    th:first-child {
+      border-radius: 8px 0 0 8px;
+      padding-left: 12px;
+    }
+    .last-child {
+      border-radius: 0 8px 8px 0 !important;
+    }
+    tr {
+      td {
+        padding: 8px 0 8px 12px;
+        font-family: sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        .food {
+          width: 60px;
+          height: 60px;
+        }
+        span {
+          padding-left: 8px;
+        }
+      }
+    }
+  }
+}
