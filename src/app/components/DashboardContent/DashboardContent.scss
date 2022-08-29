@@ -1,0 +1,23 @@
+.dashboard-content-section {
+  background-color: #f5f5f5;
+  padding-top: 32px;
+  .heading-section {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    .title {
+      font-size: 24px;
+      font-weight: 700;
+      font-family: sans-serif;
+    }
+    .button-section {
+      button {
+        border-radius: 5px;
+        font-size: 12px;
+        font-weight: 700;
+        color: #9acb3f;
+        border: 1px solid #9acb3f;
+      }
+    }
+  }
+}
