@@ -1,0 +1,37 @@
+@media only screen and (max-width: 600px) {
+  .bannerCard-Section {
+    padding: 16px;
+    .card {
+      background-color: green;
+      height: 200px;
+      border-radius: 24px;
+      .details {
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        .discount {
+          padding: 6px 8px;
+          background-color: yellow;
+          width: 130px;
+          border-radius: 16px;
+          text-align: center;
+          font-weight: 700;
+        }
+        .headings {
+          padding-bottom: 8px;
+          .title {
+            color: white;
+            font-weight: 700;
+            font-size: 34px;
+          }
+          .subtitle {
+            color: azure;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}

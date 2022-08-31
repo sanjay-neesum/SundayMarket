@@ -62,4 +62,20 @@ html {
       }
     }
   }
+
+  .home-header {
+    height: 155px;
+    background-color: #f3f6ee;
+    padding: 48px 0px;
+
+    .logo-name {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 48px;
+
+      color: #427b62;
+    }
+  }
 }

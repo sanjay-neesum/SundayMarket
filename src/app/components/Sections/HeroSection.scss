@@ -1,0 +1,48 @@
+.hero-section {
+  position: relative;
+  background: #f3f6ee;
+  padding: 64px 0 174px 0;
+  .col-md-6 {
+    gap: 12px;
+    .display-heading {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 62px;
+      line-height: 75px;
+      color: #3c3c3c;
+      padding-bottom: 32px;
+    }
+    .paragraph {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 27px;
+      line-height: 33px;
+      color: #3c3c3c;
+      margin-bottom: 24px;
+    }
+    .button-section {
+      input {
+        background: #ffffff;
+        border-radius: 16px !important;
+      }
+      span {
+        background: #9ccb4f;
+        border-radius: 16px;
+        color: white;
+        border-top-left-radius: 16px !important;
+        border-bottom-left-radius: 16px !important;
+        position: absolute;
+        right: 0;
+        width: 250px;
+        justify-content: center;
+      }
+    }
+  }
+  .bg-Img {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
