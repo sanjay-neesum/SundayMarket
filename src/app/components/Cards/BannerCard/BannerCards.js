@@ -1,10 +1,10 @@
 import React from "react";
 import "./BannerCard.scss";
 
-const BannerCards = ({ discount, title, subtitle, image }) => {
+const BannerCards = ({ discount, title, subtitle, color, image }) => {
   return (
     <div className="bannerCard-Section">
-      <div className="card">
+      <div className="card" style={{ backgroundColor: color }}>
         <div className="details">
           <div className="discount">{discount}</div>
           <div className="headings">

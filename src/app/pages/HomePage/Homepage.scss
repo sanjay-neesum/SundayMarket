@@ -70,29 +70,63 @@
         border-radius: 8px;
       }
     }
-    .offers {
+
+    .catalogcard-section,
+    .newproducts-section,
+    .our-shop-section {
+      margin-top: 16px;
+      padding: 16px;
+      .title {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 8px;
+      }
     }
   }
-}
+  #root
+    > div
+    > div
+    > div.slick-slider.slick-initialized
+    > ul
+    > li.slick-active
+    > button::before {
+    font-size: 12px !important;
+    color: #9acb3f !important;
+  }
 
-#root
-  > div
-  > div
-  > div.slick-slider.slick-initialized
-  > ul
-  > li.slick-active
-  > button::before {
-  font-size: 16px !important;
-  color: #9acb3f !important;
-}
+  #root
+    > div
+    > div
+    > div.slick-slider.slick-initialized
+    > ul
+    > li
+    > button::before {
+    font-size: 12px !important;
+    color: #b4b6bd;
+  }
+  #root
+    > div
+    > div
+    > div.slick-slider.slick-initialized
+    > ul
+    > li.slick-active
+    > button::before {
+    font-size: 12px !important;
+    color: #9acb3f !important;
+  }
 
-#root
-  > div
-  > div
-  > div.slick-slider.slick-initialized
-  > ul
-  > li
-  > button::before {
-  font-size: 16px !important;
-  color: #b4b6bd;
+  #root
+    > div
+    > div
+    > div.slick-slider.slick-initialized
+    > ul
+    > li
+    > button::before {
+    font-size: 12px !important;
+    color: #b4b6bd;
+  }
+  #root > div > div > div.slick-slider.slick-initialized > ul > li.slick-active,
+  li {
+    margin: 0 !important;
+  }
 }

@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) {
   .bannerCard-Section {
-    padding: 16px;
+    padding: 16px 0 0 16px;
     .card {
       background-color: green;
       height: 200px;
@@ -33,5 +33,18 @@
         }
       }
     }
+  }
+  #root
+    > div
+    > div
+    > div.slick-slider.slick-initialized
+    > div
+    > div
+    > div.slick-slide.slick-active.slick-current {
+    margin-left: 38px;
+  }
+
+  #root > div > div > div.slick-slider.slick-initialized > div {
+    max-height: 232px;
   }
 }

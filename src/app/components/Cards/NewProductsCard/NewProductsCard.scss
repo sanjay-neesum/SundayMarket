@@ -1,0 +1,37 @@
+@media only screen and (max-width: 600px) {
+  .newproducts-section {
+    .newproducts {
+      padding-left: 8px;
+      margin-top: 8px;
+      .card {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        .new-product {
+          width: 100%;
+          border-radius: 8px;
+        }
+        .ptitle {
+          font-size: 16px;
+          font-weight: 700;
+          min-height: 48px;
+        }
+        .details {
+          color: #a9b196;
+          gap: 6px;
+          span {
+            font-weight: 900;
+          }
+          .price {
+            font-size: 16px;
+          }
+        }
+        .shop {
+          font-size: 12px;
+          color: #a9b196;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
